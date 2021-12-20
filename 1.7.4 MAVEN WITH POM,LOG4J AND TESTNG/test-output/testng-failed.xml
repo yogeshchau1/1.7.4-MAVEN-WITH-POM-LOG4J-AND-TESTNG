@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="D1.Task.Mercury.Test.MercuryTourRegTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="ScreenshotBefore"/>
+          <include name="BrowserClosed"/>
+          <include name="DbconnectionClosed"/>
+          <include name="CookieDelete"/>
+          <include name="UrlEnter"/>
+          <include name="Screenshot"/>
+          <include name="Register"/>
+          <include name="Maximize"/>
+        </methods>
+      </class> <!-- D1.Task.Mercury.Test.MercuryTourRegTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
