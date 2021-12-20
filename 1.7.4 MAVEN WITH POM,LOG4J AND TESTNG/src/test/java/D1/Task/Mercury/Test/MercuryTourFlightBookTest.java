@@ -115,13 +115,7 @@ public class MercuryTourFlightBookTest {
 				log.warn("BROWSER CLOSED");
 				driver.close();
 			}
-			@AfterSuite
-			public void BrowserClosed()
-			{
-				log.info("");
-				log.warn("BROWSER CLOSED");
-				driver.close();
-			}
+			
 
 		}
 
