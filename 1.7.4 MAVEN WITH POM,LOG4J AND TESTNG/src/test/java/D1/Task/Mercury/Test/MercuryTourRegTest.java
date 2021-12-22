@@ -134,7 +134,7 @@ public class MercuryTourRegTest {
 	{
 		log.info("");
 		log.warn("BROWSER CLOSED");
-		driver.close();
+		//driver.close();
 	}
 	
 
